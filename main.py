@@ -1,2 +1,4 @@
 if __name__ == '__main__':
-    print("Witaj, świecie")
+    print("Hello World!")
+
+    print ("Author: Kuba")

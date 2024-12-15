@@ -1,9 +1,5 @@
 Test
 
-'''bash
-fdfdgdfg
-fgfgf
-
-
-nowa zmiana2
-'''
+```bash
+git add
+```

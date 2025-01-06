@@ -43,10 +43,10 @@ def menu():
 
 def average(number: str) -> str:
     numbers_without_whitespace = re.split(r"[,\s;:]+", number)
-    numbers_list= []
+    numbers_list = []
     for numbers in numbers_without_whitespace:
         numbers_list.append(float(numbers))
-    average_score= round(float(sum(numbers_list) / len(numbers_list)), 2)
+    average_score = round(float(sum(numbers_list) / len(numbers_list)), 2)
     return f"Średnia wprowadzonych liczb to: {average_score:.2f} (wynik zaokrąglony do dwóch miejsc po przecinku)."
 
 
